@@ -1,0 +1,41 @@
+/*REUSABLE COMPONENTS*/
+.divider{
+  width: 100%;
+  height: 0.2rem;
+  background-color: var(--white);
+}
+
+/*HEADER - HERO*/
+header {
+  background-color: var(--aubergine);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10rem;
+  line-height: 1.5;
+}
+
+.header--title {
+  color: var(--white);
+  font-size: 20rem;
+  font-weight: 700;
+}
+
+.header--subtitle {
+  color: var(--red-pink);
+  font-size: 8rem;
+  font-weight: 700;
+  letter-spacing: 0.75rem;
+}
+
+.stroke {
+  -webkit-text-stroke: 0.15rem var(--red-pink);
+  -webkit-text-fill-color: transparent;
+}
+
+/*SECTION GENERIC*/
+.section {
+  min-height: 100vh;
+  padding: 2rem 10rem;
+}
