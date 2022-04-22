@@ -129,7 +129,6 @@ body::after {
   position: fixed;
   top: -100%;
   width: 300%;
-  z-index: 100;
 }
 
 @keyframes grain {

@@ -5,6 +5,13 @@
   background-color: var(--white);
 }
 
+.section--header .section--container{
+  display: flex;
+  padding: 1.2rem 0;
+  font-size: 12rem;
+  justify-content: space-between;
+}
+
 /*HEADER - HERO*/
 header {
   background-color: var(--aubergine);
